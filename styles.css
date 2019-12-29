@@ -1,17 +1,81 @@
 body {
-    font-family: 'Zilla Slab', serif;
-    background-color: #1A212A;
-}
-h1{
     color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    text-shadow: black 0px 0px 12px;
+    background-image: url("background.jpg");
+    background-size: cover;
 }
-
-h2{
-    color: white;
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
 }
-h3{
-    color: white;
+.university{
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+    background-color: #393D3F;
+    opacity: 0.8;
+    width: 300px;
+    border: 7px solid #00A6E2;
+    border-radius: 10px;
 }
-p{
-    color: white;
+.ethereum{
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+    background-color: #393D3F;
+    opacity: 0.8;
+    width: 300px;
+    border: 7px solid #00A6E2;
+    border-radius: 10px;
+}
+.modular{
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+    background-color: #393D3F;
+    opacity: 0.8;
+    width: 300px;
+    border: 7px solid #00A6E2;
+    border-radius: 10px;
+}
+.print{
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+    background-color: #393D3F;
+    opacity: 0.8;
+    width: 300px;
+    border: 7px solid #00A6E2;
+    border-radius: 10px;
+}
+.acting{
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+    background-color: #393D3F;
+    opacity: 0.8;
+    width: 300px;
+    border: 7px solid #00A6E2;
+    border-radius: 10px;
+}
+.speedrun{
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+    background-color: #393D3F;
+    opacity: 0.8;
+    width: 300px;
+    border: 7px solid #00A6E2;
+    border-radius: 10px;
 }
