@@ -1,7 +1,7 @@
 body {
     color: white;
     font-family: 'Inconsolata', monospace;
-    font-size: 20px;
+    font-size: 18px;
     text-shadow: black 0px 0px 12px;
     background-image: url("background.jpg");
     background-size: cover;
@@ -35,11 +35,10 @@ body {
     background-color: #393D3F;
     opacity: 0.8;
     width: 1fr;
-    height: 300px;
     border: 7px solid #00A6E2;
     border-radius: 10px;
 }
-.ethereum{
+.web3{
     grid-column: 3;
     grid-row: 2;
     justify-self: center;
@@ -48,11 +47,10 @@ body {
     background-color: #393D3F;
     opacity: 0.8;
     width: 1fr;
-    height: 300px;
     border: 7px solid #00A6E2;
     border-radius: 10px;
 }
-.modular{
+.music{
     grid-column: 4;
     grid-row: 2;
     justify-self: center;
@@ -61,11 +59,10 @@ body {
     background-color: #393D3F;
     opacity: 0.8;
     width: 1fr;
-    height: 300px;
     border: 7px solid #00A6E2;
     border-radius: 10px;
 }
-.print{
+.booklist{
     grid-column: 2;
     grid-row: 3;
     justify-self: center;
@@ -74,11 +71,10 @@ body {
     background-color: #393D3F;
     opacity: 0.8;
     width: 1fr;
-    height: 300px;
     border: 7px solid #00A6E2;
     border-radius: 10px;
 }
-.acting{
+.philosophy{
     grid-column: 3;
     grid-row: 3;
     justify-self: center;
@@ -87,7 +83,6 @@ body {
     background-color: #393D3F;
     opacity: 0.8;
     width: 1fr;
-    height: 300px;
     border: 7px solid #00A6E2;
     border-radius: 10px;
 }
@@ -100,7 +95,6 @@ body {
     background-color: #393D3F;
     opacity: 0.8;
     width: 1fr;
-    height: 300px;
     border: 7px solid #00A6E2;
     border-radius: 10px;
 }
