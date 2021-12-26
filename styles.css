@@ -74,7 +74,7 @@ body {
     border: 7px solid #00A6E2;
     border-radius: 10px;
 }
-.philosophy{
+.vglist{
     grid-column: 3;
     grid-row: 3;
     justify-self: center;
